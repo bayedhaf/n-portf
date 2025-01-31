@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Appp.css">
+  </head>
+  <body>
+        <!--form code -->
+        <div class="container"> 
+            <div class="card">
+                <h1>Fill the Form</h1>
+                <div class="bodycard">
+                    <div class="fram"></div>
+                    <div class="form-container">
+                        <h2>Contact Form</h2>
+                        <form id="contactForm" method="post" action="bayedhaf2023@gmail.com">
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="Enter your name..." required>
+                
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Enter your last name..." required>
+                
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="write on here the massage what you want.." required></textarea>
+                
+                            <button id="submit" type="submit">Submit</button>
+                        </form>
+                        <div id="errorMessage" class="error-message"></div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+        </div>
+       
+        <!--javascript form validation-->
+     <script src="scriptt.js"></script>
+  </body>
+</html>
